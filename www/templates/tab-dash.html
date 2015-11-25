@@ -1,0 +1,26 @@
+<ion-view view-title="Guardar estudiante">
+  <ion-content class="padding">
+    <form>
+      <div class="list">
+         <label class="item item-input">
+           <input type="text" placeholder="Documento" ng-model="estudiante.documento"/>           
+         </label>
+         <label class="item item-input">
+          <input type="text" placeholder="Edad"
+           ng-model="estudiante.edad"/>
+         </label>
+         <label class="item item-input">
+          <input type="text" placeholder="Nombre" ng-model="estudiante.nombre"/>
+         </label>
+         <label class="item item-input">
+          <input type="text" placeholder="G&eacute;nero" ng-model="estudiante.genero"/>
+         </label>
+         <label class="item item-input">
+          <span style="text-align: center;width:100%;">
+            <button class="button icon-left ion-checkmark-roun" ng-click="guardarEstudiante()">Guardar</button>
+          </span>
+         </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
